@@ -31,7 +31,7 @@ int main(void)
 
     // Construct dictionary from testcases
     for (int i=0; i < TEST_SSIZE; i++){
-        printf("Insertion step [%d/%d]: testCases[i]\n", i, TEST_SSIZE);
+        printf("Insertion step [%d/%d]: %s\n", i+1, TEST_SSIZE, testCases[i]);
         dicoInsererMot(testCases[i], &dico);
         char buffer[MAX_WSIZE+1];
         affichageRec(dico, buffer, 0);

@@ -56,6 +56,13 @@ int main(void)
         dicoInsererMot(motpioche, &dico);
     }
     char buffer[MAX_WSIZE+1];
+    printf("Displaying %d unique words from %d entries\n", dicoNbMotsDifferents(dico),dicoNbMotsTotal(dico) );
     affichageRec(dico, buffer, 0);
+
+    // metadata of dictionary
+
     arbreSuppr(dico);
+
+
+
 }

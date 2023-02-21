@@ -1,7 +1,6 @@
 #include "arbre.h"
 
 
-
 char arbreRacineLettre(TArbre a){
     /* Returns the char char of a TArbre a root node.
      * */

@@ -33,15 +33,6 @@ In the case of the dictionary, therefore, the right child is a
 pointer to another possible letter in the same position and the left child is a pointer to the possible continuation of the word.
 
 
-
-## Installation
-
-[TODO]
-
-## Library functions
-
-[TODO]
-
 #### utils.h
 #### arbre.h
 #### dico.h
